@@ -11,6 +11,7 @@
 		B6BB38B72BDBF0BE0046B09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB38B62BDBF0BE0046B09F /* ContentView.swift */; };
 		B6BB38B92BDBF0C30046B09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BB38B82BDBF0C30046B09F /* Assets.xcassets */; };
 		B6BB38BC2BDBF0C30046B09F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BB38BB2BDBF0C30046B09F /* Preview Assets.xcassets */; };
+		B6BB38C32BDBF30B0046B09F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB38C22BDBF30B0046B09F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B6BB38B62BDBF0BE0046B09F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6BB38B82BDBF0C30046B09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6BB38BB2BDBF0C30046B09F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6BB38C22BDBF30B0046B09F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B6BB38B42BDBF0BE0046B09F /* Day43_NavigationSandBoxApp.swift */,
 				B6BB38B62BDBF0BE0046B09F /* ContentView.swift */,
+				B6BB38C22BDBF30B0046B09F /* DetailView.swift */,
 				B6BB38B82BDBF0C30046B09F /* Assets.xcassets */,
 				B6BB38BA2BDBF0C30046B09F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BB38B72BDBF0BE0046B09F /* ContentView.swift in Sources */,
+				B6BB38C32BDBF30B0046B09F /* DetailView.swift in Sources */,
 				B6BB38B52BDBF0BE0046B09F /* Day43_NavigationSandBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

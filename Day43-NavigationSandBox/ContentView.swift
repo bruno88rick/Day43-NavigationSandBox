@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var path = [Int]()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            NavigationStack(path: $path){
+                DetailView(number: 0, path: $path)
+                    .navigationDestination(for: Int.self) { i in
+                        DetailView(number: i, path: $path)
+                    }
+            }
         }
         .padding()
     }
